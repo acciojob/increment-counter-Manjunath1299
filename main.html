@@ -10,31 +10,7 @@
   <p id="counter">0</p>
   <button id="incrementBtn">Increment</button>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      // Get elements
-      const counterElement = document.getElementById("counter");
-      const incrementBtn = document.getElementById("incrementBtn");
-
-      // Counter value
-      let counterValue = 0;
-
-      // Function to display the current counter value in an alert
-      function displayCounter() {
-        alert(`Current Counter Value: ${counterValue}`);
-      }
-
-      // Function to increment the counter and update the display
-      function incrementCounter() {
-        displayCounter(); // Display the current value before incrementing
-        counterValue++;
-        counterElement.textContent = counterValue; // Update the displayed value
-      }
-
-      // Attach event listener to the button
-      incrementBtn.addEventListener("click", incrementCounter);
-    });
-  </script>
+  <script type="text/javascript" src="./script.js"></script>
 
 </body>
 </html>
