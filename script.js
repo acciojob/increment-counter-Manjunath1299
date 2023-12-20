@@ -6,4 +6,5 @@ btn.addEventListener("click",()=>{
 	
 	para.innerText=`${count} `;
 	count++;
+	alert(para);
 })
