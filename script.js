@@ -5,5 +5,4 @@ let incrementBtn = document.getElementById("incrementBtn");
 incrementBtn.addEventListener("click", () => {
   count++;  
   counterElement.innerText = count;  
-  alert('Count is now: ' +count);
 });
